@@ -1,0 +1,133 @@
+* {
+    /* default */
+    margin: 0;
+    padding: 0;
+}
+
+.my-style {
+    /* there is a order the attribute are written */
+    background-color: #B9F3E4;
+    color: #EA8FEA;
+    padding-left: 270px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+
+
+   
+}
+
+ /*always use br after every selector and avoid using id and element selector use class as much as possible */
+
+#my-id {
+
+    background-color: #362FD9;
+    color: #85CDFD;
+}
+
+p {
+    background-color: #C3ACD0;
+    color: #674188;
+    
+}
+
+h1 {
+    color: #141417;
+}
+
+.parent {
+    position: relative;
+    background-color: #141417;
+    width:300px;
+    height:300px; 
+}
+
+.child {
+    position: absolute;
+    background-color: #85CDFD;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    top: 0;
+    right: 0;
+}
+
+/* only 3 to 4 media querry should be used */
+
+/* body{
+    background-color: #ed273e;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: #141417;
+    }
+    
+}
+
+
+@media (min-width: 1024px) {
+    body {
+        background-color: #2121ce;
+    }
+    
+}
+
+
+@media (min-width: 1280px) {
+    body {
+        background-color: #2ed29b;
+    }
+    
+} */
+
+/* min-width is recommended
+    @media (max-width: 768px) {
+        body {
+            background-color: #0000;
+        }
+    }
+*/
+
+body {
+    background-color: #141417;
+    padding: 200px;
+}
+
+
+
+.fparent {
+    background-image: url("flower/flo6.jpg");
+    height: 500px;
+    width: 100%;
+    background-color: #2E3840;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap; /*does not adjust in the same line */
+    align-items: center;
+   justify-content: center;
+
+}
+
+/* 
+flex column
+flex-direction: column; */
+
+.fchild {
+    background-color: #F9DBBB;
+    width: 200px;
+    height: 200px;
+}
+
+.fchild2 {
+    background-color: #FF0303;
+    width: 200px;
+    height: 300px;
+}
+
+.fchild {
+    background-color: #F9DBBB;
+    width: 200px;
+    height: 200px;
+}
